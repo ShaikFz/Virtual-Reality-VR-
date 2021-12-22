@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="VrProject.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d1c2ea8b80.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionVrHomePage">
+        <div class="">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                <div class="container">
+                    <a class="navbar-brand" href="#"><img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-logo-img.png" class="logo-style"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav ml-auto">
+                            <a class="nav-link active" href="#" id="#idnav1">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#" id="#idnav1" onclick="display('sectionVrProducts')">Products</a>
+                            <a class="nav-link" href="#" id="#idnav1" onclick="display('sectionVrTrendingBlogs')">Trending Blogs</a>
+                            <a class="nav-link" href="#" id="#idnav1" onclick="display('sectionVrKitSeclction')">Kit Selection</a>
+                            <a class="nav-link" href="#" id="#idnav1" onclick="display('sectionVrOptics')">Optics & controllers</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="vr-bg-container d-flex flex-column justify-content-center">
+                <div class="bg-card">
+                    <div class="middle-card text-center">
+                        <h1 class="middle-headding">The Revolution in Virtual Reality</h1>
+                        <button class="btn btn-dark button-style" onclick="display('sectionVrFeatures')">Features</button>
+                        <button class="btn btn-dark button-style ml-2">View More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="Vr-footer-bg-contanier pt-4 pb-4">
+                <div class="container">
+                    <div class="col-12 text-center">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-logo-img.png" class="vr-footer-top-image">
+                        <div class="d-flex flex-row justify-content-center">
+                            <div class="footer-icon-container mt-4 mr-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-google footer-icon" viewBox="0 0 16 16">
+                                    <path d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z" />
+                                </svg>
+                            </div>
+                            <div class="footer-icon-container mt-4 mr-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-twitter footer-icon" viewBox="0 0 16 16">
+                                    <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                                </svg>
+                            </div>
+                            <div class="footer-icon-container mt-4 mr-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-instagram footer-icon" viewBox="0 0 16 16">
+                                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                                </svg>
+                            </div>
+                            <div class="footer-icon-container mt-4 mr-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-linkedin footer-icon" viewBox="0 0 16 16">
+                                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="vr-footer-icon-description mt-3">37,Ayur Vignan Nagar,New Delhi India</div>
+                    </div>
+        
+                    <div class="col-12 mt-3">
+                        <div class="d-flex justify-content-between">
+                            <div class="vr-footer-details mt-3">
+                                <h1 class="vr-footer-details-heading">Contact Us</h1>
+                                <div class="d-flex mt-4">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-envelope-fill footer-icon" viewBox="0 0 16 16">
+                                        <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
+                                    </svg>
+                                    <p class="vr-footer-details-mail ml-3">skfayaz606@gmail.com</p>
+                                </div>
+                                <div class="d-flex mt-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-telephone-fill footer-icon" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                                    </svg>
+                                    <p class="vr-footer-details-mail ml-3">9542339378</p>
+                                </div>
+                                <div class="d-flex mt-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-skype footer-icon" viewBox="0 0 16 16">
+                                        <path d="M4.671 0c.88 0 1.733.247 2.468.702a7.423 7.423 0 0 1 6.02 2.118 7.372 7.372 0 0 1 2.167 5.215c0 .344-.024.687-.072 1.026a4.662 4.662 0 0 1 .6 2.281 4.645 4.645 0 0 1-1.37 3.294A4.673 4.673 0 0 1 11.18 16c-.84 0-1.658-.226-2.37-.644a7.423 7.423 0 0 1-6.114-2.107A7.374 7.374 0 0 1 .529 8.035c0-.363.026-.724.08-1.081a4.644 4.644 0 0 1 .76-5.59A4.68 4.68 0 0 1 4.67 0zm.447 7.01c.18.309.43.572.729.769a7.07 7.07 0 0 0 1.257.653c.492.205.873.38 1.145.523.229.112.437.264.615.448.135.142.21.331.21.528a.872.872 0 0 1-.335.723c-.291.196-.64.289-.99.264a2.618 2.618 0 0 1-1.048-.206 11.44 11.44 0 0 1-.532-.253 1.284 1.284 0 0 0-.587-.15.717.717 0 0 0-.501.176.63.63 0 0 0-.195.491.796.796 0 0 0 .148.482 1.2 1.2 0 0 0 .456.354 5.113 5.113 0 0 0 2.212.419 4.554 4.554 0 0 0 1.624-.265 2.296 2.296 0 0 0 1.08-.801c.267-.39.402-.855.386-1.327a2.09 2.09 0 0 0-.279-1.101 2.53 2.53 0 0 0-.772-.792A7.198 7.198 0 0 0 8.486 7.3a1.05 1.05 0 0 0-.145-.058 18.182 18.182 0 0 1-1.013-.447 1.827 1.827 0 0 1-.54-.387.727.727 0 0 1-.2-.508.805.805 0 0 1 .385-.723 1.76 1.76 0 0 1 .968-.247c.26-.003.52.03.772.096.274.079.542.177.802.293.105.049.22.075.336.076a.6.6 0 0 0 .453-.19.69.69 0 0 0 .18-.496.717.717 0 0 0-.17-.476 1.374 1.374 0 0 0-.556-.354 3.69 3.69 0 0 0-.708-.183 5.963 5.963 0 0 0-1.022-.078 4.53 4.53 0 0 0-1.536.258 2.71 2.71 0 0 0-1.174.784 1.91 1.91 0 0 0-.45 1.287c-.01.37.076.736.25 1.063z" />
+                                    </svg>
+                                    <p class="vr-footer-details-mail ml-3">Fayaz</p>
+                                </div>
+                            </div>
+                            <div class="mt-3">
+                                <h1 class="vr-footer-details-heading">Let Us Help You</h1>
+                                <p class="vr-footer-details-mail mt-4">100% Purchase Protection</p>
+                                <p class="vr-footer-details-mail mt-2">Your Account</p>
+                                <p class="vr-footer-details-mail mt-2">Return Center<br />Help</p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="vr-footer-line" />
+                    <div class="col-12">
+        
+                    </div>
+                </div>
+            </div>
+        
+
+        </div>
+    </div>
+    
+    
+    <div id="sectionVrFeatures"> 
+        <div class="Vr-features">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="vr-features-bg-container">
+                            <h1 class="vr-features-main-heading p-2">Features</h1>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="vr-features-card mt-2">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/easy-connect-img.png" class="vr-features-images mb-2">
+                            <h1 class="vr-features-image-headings">Easy to connect</h1>
+                            <p class="vr-features-image-description">Instead of screening infront of them, users are immersed and able to intreact with 3d worlds</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="vr-features-card mt-2">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-capability-img.png" class="vr-features-images mb-2">
+                            <h1 class="vr-features-image-headings">VR Capablity</h1>
+                            <p class="vr-features-image-description">Virtual ability (VR) can create an envirnoment similar to or completly different from the real world</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="vr-features-card mt-2">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/interaction-img.png" class="vr-features-images mb-2">
+                            <h1 class="vr-features-image-headings">Video Games</h1>
+                            <p class="vr-features-image-description">Ability to recognize hand motion, evolving interactions and gameplay in VR</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="vr-features-card mt-2">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/easy-play-img.png" class="vr-features-images mb-2">
+                            <h1 class="vr-features-image-headings">Interaction</h1>
+                            <p class="vr-features-image-description">Interaction refers to the <span class="highlight">natural interaction</span> between the user and the virtual scence</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="vr-features-card mt-2">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/experience-img.png" class="vr-features-images mb-2">
+                            <h1 class="vr-features-image-headings">Awesome Experience</h1>
+                            <p class="vr-features-image-description">virtual reality (VR) is a simulated experience that can be similar to or completly different from the real world.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-5 ml-5">
+                <button class="btn btn-primary" onclick="display('sectionVrHomePage')">back</button>
+            </div>
+        </div>
+    </div> 
+
+    <div id="sectionVrProducts">
+        <div class="pt-3 pb-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="products-main-heading">Products</h1>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="pro-card products-bg-container p-3 d-flex flex-column justify-content-end mt-1">
+                            <h1 class="products-heading">Vr Heading</h1>
+                            <p class="products-price">Rs 75000</p>
+                            <button class="products-button">Buy Now</button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="pro-card1 products-bg-container1 p-3 d-flex flex-column justify-content-end mt-1">
+                            <h1 class="products-heading">Vr Headsets and Two Touch Controllers</h1>
+                            <p class="products-price">Rs 90000</p>
+                            <button class="products-button">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-row justify-content-end mt-3">
+                    <button class="btn btn-primary">View All</button>
+                </div>
+                <div class="">
+                <button class="btn btn-primary ml-2" onclick="display('sectionVrHomePage')">Back</button>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionVrTrendingBlogs">
+        <div class="Trending-bg-container">
+            <div class="container pt-3 pb-3">
+                <div class="row">
+                    <div class="col-12 mt-3 mb-1">
+                        <h1 class="Trending-main-heading">Trending Blogs</h1>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="shadow">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-trending-blogs-1-img.png" class="trending-top-image p-2">
+                            <div class="p-3">
+                                <h1 class="trending-heading">Amazon</h1>
+                                <p class="trending-description">New Way to See the World. It is a simulated experience that can be completly different from the real world.</p>
+                                <a class="trending-link" href="">Read More
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 mt-2">
+                        <div class="shadow">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-trending-blogs-2-img.png" class="trending-top-image p-2">
+                            <div class="p-3">
+                                <h1 class="trending-heading">Amazon</h1>
+                                <p class="trending-description">New Way to See the World. It is a simulated experience that can be completly different from the real world.</p>
+                                <a class="trending-link" href="">Read More
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-row justify-content-end">
+                    <button class="btn btn-primary trending-button mt-2">View All</button>
+                </div>
+                <div class="">
+                    <button class="btn btn-primary" onclick="display('sectionVrHomePage')">Home</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionVrKitSeclction">
+        <div class="VR-Kit-container pt-3 pb-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="vr-kit-heading">Included VR Kit</h1>
+                    </div>
+                    <div class="col-12 text-center mt-3 col-md-4">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-kit-1-img.png" class="vr-kit-images">
+                        <p class="kit-images-description mt-2">Two torch Controllers</p>
+                    </div>
+                    <div class="col-12 text-center mt-3 col-md-4">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-kit-2-img.png" class="vr-kit-images">
+                        <p class="kit-images-description mt-2">Two torch Controllers</p>
+                    </div>
+                    <div class="col-12 text-center mt-3 col-md-4">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-kit-3-img.png" class="vr-kit-images">
+                        <p class="kit-images-description mt-2">Two torch Controllers</p>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <button class="btn btn-primary ml-3 mt-3" onclick="display('sectionVrHomePage')">back</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionVrOptics">
+        <div class="vrOptics-bg-container">
+            <div class="pt-3 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="clo-12 col-md-6 order-1 order-md-2">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-optics-img.png" class="bg-optics-image">
+                        </div>
+                        <div class="col-12 col-md-6 d-flex flex-column justify-content-center order-2 order-md-1">
+                            <h1 class="vr-heading mt-2">Improved Optics</h1>
+                            <p class="vr-image-description">A virtual reality headset is a head-mounted device that provides virtual reality for the wearer</p>
+                            <button class="btn btn-dark button-style">Read More</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="clo-12 col-md-6 order-1 order-md-1 mt-4">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-controllers-img.png" class="bg-optics-image">
+                        </div>
+                        <div class="col-12 col-md-6 d-flex flex-column justify-content-center order-2 order-md-2">
+                            <h1 class="vr-heading mt-2">Improved Optics</h1>
+                            <p class="vr-image-description">A virtual reality headset is a head-mounted device that provides virtual reality for the wearer</p>
+                            <button class="btn btn-dark button-style">Read More</button>
+                        </div>
+                    </div>
+                    <div class="">
+                            <button class="btn btn-primary mt-3" onclick="display('sectionVrHomePage')">Back</button>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+</html>

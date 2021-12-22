@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.logo-style {
+  height: 36px;
+  width: 60px;
+}
+
+.vr-bg-container {
+  background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-banner-bg.png");
+  background-size: cover;
+  height: 100vh;
+}
+
+.middle-card {
+  color: white;
+  font-family: "Roboto";
+}
+
+.middle-headding {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.button-style {
+  border-radius: 6px;
+}
+
+#idnav1 {
+  color: #323f4b;
+  font-family: Roboto;
+}
+
+#idnav2 {
+  color: #323f4b;
+  font-family: Roboto;
+}
+
+#idnav3 {
+  color: #323f4b;
+  font-family: Roboto;
+}
+
+#idnav4 {
+  color: #323f4b;
+  font-family: Roboto;
+}
+
+.Vr-footer-bg-contanier {
+  background-color: #19232d;
+  height: 100vh;
+  background-size: cover;
+  font-family: Roboto;
+}
+
+.vr-footer-top-image {
+  width: 100px;
+}
+
+.footer-icon-container {
+  background-color: #202b36;
+  width: 80px;
+  padding: 15px;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.footer-icon {
+  color: #959ead;
+}
+
+.vr-footer-icon-description {
+  font-size: 20px;
+  font-weight: 500;
+  color: #959ead;
+}
+
+.vr-footer-details-heading {
+  font-size: 30px;
+  font-weight: 600;
+  color: #959ead;
+}
+
+.vr-footer-details-mail {
+  font-size: 20px;
+  font-weight: 600;
+  color: #959ead;
+}
+
+.vr-footer-line {
+  background-color: #959ead;
+}
+
+.vr-features-bg-container {
+  background-color: white;
+  font-family: Roboto;
+}
+
+.vr-features-main-heading {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.vr-features-card {
+  text-align: center;
+}
+
+.vr-features-images {
+  height: 50px;
+  width: 50px;
+}
+
+.vr-features-image-headings {
+  font-size: 17px;
+  font-weight: 00;
+}
+
+.vr-features-image-description {
+  font-size: 12px;
+  font-weight: 500;
+  color: #7b8794;
+}
+
+.highlight {
+  font-weight: bold;
+  color: black;
+}
+
+.products-bg-container {
+  background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-products-headset-img.png");
+  background-size: cover;
+  height: 85vh;
+  color: white;
+  font-family: "Roboto";
+}
+
+.pro-card {
+  height: 600px;
+  width: 100%;
+}
+
+.products-bg-container1 {
+  background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-products-headset-with-controllers-img.png");
+  background-size: cover;
+  height: 85vh;
+  color: white;
+  font-family: "Roboto";
+}
+
+.pro-card1 {
+  height: 600px;
+  width: 100%;
+}
+
+.products-main-heading {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.products-heading {
+  font-size: 25px;
+}
+
+.products-price {
+  font-size: 13px;
+}
+
+.products-button {
+  width: 90px;
+  background-color: transparent;
+  color: white;
+  font-size: 12px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 8px;
+  padding: 3px;
+}
+
+.trending-top-image {
+  width: 100%;
+}
+
+.Trending-main-heading {
+  color: #323f4b;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.trending-heading {
+  font-size: 16px;
+  font-family: "Roboto";
+  font-weight: 700;
+  color: #959ead;
+}
+
+.trending-description {
+  font-size: 19px;
+  font-weight: 500;
+  color: #323f4b;
+  font-family: "Roboto";
+}
+
+.trending-link {
+  font-size: 12px;
+  font-weight: 500;
+  color: #1754a1;
+  font-family: "Roboto";
+}
+
+.vr-kit-heading {
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.vr-kit-images {
+  height: 150px;
+  width: 170px;
+}
+
+.kit-images-description {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: Roboto;
+  color: #323f4b;
+}
+
+.VR-Kit-container {
+  background-color: lightblue;
+  height: 100vh;
+}
+
+.vrOptics-bg-container {
+  background-color: lightblue;
+}
+
+.bg-optics-image {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.vr-heading {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.vr-image-description {
+  font-weight: 600;
+  color: #7b8794;
+}
+
+.button-style {
+  width: 110px;
+  border-radius: 10px;
+}
